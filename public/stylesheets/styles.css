@@ -8,16 +8,20 @@ h2 {
 	font-size: 3.0em;
 }
 
+body {
+  background-image: url('../images/grid.png');
+}
+
 #content {
 	max-width: 600px;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 30px;
 
 }
 
 #header {
-	text-align: center;
-	
+	/*text-align: center;*/
+	margin-top: 30px;
 }
 
 #header h1 {
@@ -27,23 +31,53 @@ h2 {
 
 #navigation {
   list-style:none;
-  margin-top:10px;
+  margin-top:30px;
   padding:0;
-  text-align:center;
+  /*text-align:center;*/
 }
 #navigation li{
   font-family: 'Loved by the King', cursive;
-  font-size: 2.0em;
+  font-size: 1.8em;
   display:inline;
   line-height: 85%;
   letter-spacing: 100%;
 }
 #navigation a {
   display:inline-block;
-  width: 3.0em;
-  padding:10px;
+  background-image: url('../images/crosshatch.png');
+  border-radius: 5px;
+  color: gray;
+  /*width: 3.0em;*/
+  padding:15px;
+  margin: 5px;
+}
+
+#navigation a:hover {
+	color: black;
 }
 
 .section {
-  margin: 30px;
+  margin-top: 60px;
+}
+
+.galleria-container {
+  background: white;
+  box-shadow: 1px 1px 1px 1px #c5c5c5;
+}
+
+.galleria-thumbnails-list {
+  margin-left: 5px;
+}
+
+.galleria-thumbnails .galleria-image {
+  border: 1px solid white;
+}
+
+#read img {
+	height: 160px;
+}
+
+
+#contact img {
+	margin-left: 15px;
 }
