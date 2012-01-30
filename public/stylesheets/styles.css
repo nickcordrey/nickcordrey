@@ -1,11 +1,13 @@
 h1 {
 	font-family: 'Cabin Sketch', cursive;
-	font-size: 6.0em;
+	font-size: 5.8em;
 }
 
 h2 {
 	font-family: 'Loved by the King', cursive;
-	font-size: 3.0em;
+	font-size: 2.0em;
+	margin-left: 0.25em;
+	margin-top: 20px;
 }
 
 body {
@@ -13,7 +15,7 @@ body {
 }
 
 #content {
-	max-width: 600px;
+	max-width: 550px;
 	margin: 0 auto;
 	margin-top: 30px;
 
@@ -22,7 +24,14 @@ body {
 #header {
 	/*text-align: center;*/
 	margin-top: 30px;
+	margin-left: 20px;
 }
+
+#logo {
+	float: left;
+	margin-right: 20px;
+}
+
 
 #header h1 {
 	line-height: 80%;
@@ -33,6 +42,7 @@ body {
   list-style:none;
   margin-top:30px;
   padding:0;
+  margin-left: 20px;
   /*text-align:center;*/
 }
 #navigation li{
@@ -48,7 +58,7 @@ body {
   border-radius: 5px;
   color: gray;
   /*width: 3.0em;*/
-  padding:15px;
+  padding:10px;
   margin: 5px;
 }
 
@@ -57,7 +67,8 @@ body {
 }
 
 .section {
-  margin-top: 60px;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 .galleria-container {
