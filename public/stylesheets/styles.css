@@ -5,9 +5,10 @@ h1 {
 
 h2 {
 	font-family: 'Loved by the King', cursive;
-	font-size: 2.0em;
+	font-size: 2.2em;
 	margin-left: 0.25em;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 body {
@@ -18,12 +19,11 @@ body {
 	max-width: 550px;
 	margin: 0 auto;
 	margin-top: 30px;
-
+    overflow: visible;
 }
 
 #header {
 	/*text-align: center;*/
-	margin-top: 30px;
 	margin-left: 20px;
 }
 
@@ -69,6 +69,11 @@ body {
 .section {
   margin-top: 40px;
   margin-left: 20px;
+
+}
+
+.section h2 {
+
 }
 
 .galleria-container {
@@ -84,6 +89,15 @@ body {
   border: 1px solid white;
 }
 
+#take-icon {
+	width: 65px;
+	height: 50px;
+	background-image: url('../images/icon-camera.png');
+	background-repeat: no-repeat;	
+	margin-bottom: 20px;
+	padding-left: 60px;	
+}
+
 #read img {
 	height: 150px;
 }
@@ -91,4 +105,15 @@ body {
 
 #contact img {
 	margin-left: 15px;
+	margin-bottom: 80px;
+}
+
+#header-WIP {
+	position: relative;
+	top: 140px;
+	right: 180px;
+	background-image: url('../images/WIP.png');
+	background-repeat: no-repeat;
+	height: 38px;
+	width: 198px;
 }
