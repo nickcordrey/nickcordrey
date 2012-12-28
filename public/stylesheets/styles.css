@@ -4,13 +4,16 @@
 }
 
 .rsFullscreen .rsGCaption {
+	font-family: sans-serif, Helvetica;
+	font-size: 0.8em;
 	position: absolute;
-	width: 100px;
+	width: 10%;
 	display: inline-block;
 	text-align: left;
 	bottom: 0px;
 	left: 10px;
 	display: block;
-	background-color: whitesmoke;
+	background-color: rgba(245, 245, 245, 0.6);
 	padding: 10px;
+	display: none;
 }
