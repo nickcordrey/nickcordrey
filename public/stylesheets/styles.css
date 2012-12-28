@@ -1,3 +1,15 @@
+.header {
+	position: absolute;
+	top:0px;
+	left:10px;
+	height: 90px;
+	width: 200px;
+	background-image: url('../images/Name.png');
+	background-position: center center;
+	z-index: 2147483648;
+	opacity: 0.6;
+}
+
 .royalSlider {
    width: 0px;
    height: 0px;
@@ -7,12 +19,11 @@
 	font-family: sans-serif, Helvetica;
 	font-size: 0.8em;
 	position: absolute;
-	width: 10%;
+	width: 15%;
 	display: inline-block;
 	text-align: left;
-	bottom: 0px;
-	left: 10px;
-	display: block;
+	bottom: 10px;
+	right: 0;
 	background-color: rgba(245, 245, 245, 0.6);
 	padding: 10px;
 	display: none;
